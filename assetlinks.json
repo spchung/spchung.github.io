@@ -1,0 +1,9 @@
+[{
+  "relation": ["delegate_permission/common.handle_all_urls"],
+  "target": {
+    "namespace": "android_app",
+    "package_name": "com.oneforty.oneforty",
+    "sha256_cert_fingerprints":
+    ["ad:81:01:c9:c5:95:f7:2e:1a:a1:12:30:cc:79:51:87:62:79:80:03"]
+  }
+}]
