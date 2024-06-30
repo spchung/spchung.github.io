@@ -1,9 +1,13 @@
-[{
-  "relation": ["delegate_permission/common.handle_all_urls"],
-  "target": {
-    "namespace": "android_app",
-    "package_name": "com.oneforty.oneforty",
-    "sha256_cert_fingerprints":
-    ["ad:81:01:c9:c5:95:f7:2e:1a:a1:12:30:cc:79:51:87:62:79:80:03"]
+[
+  {
+    "relation": ["delegate_permission/common.handle_all_urls"],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "com.oneforty.oneforty",
+      "sha256_cert_fingerprints": [
+        "ad:81:01:c9:c5:95:f7:2e:1a:a1:12:30:cc:79:51:87:62:79:80:03",
+        "58:40:3A:20:B5:96:3C:79:C0:09:D4:82:7C:4F:C1:FC:6B:E6:E0:01:3F:8F:7B:1B:E8:A8:EA:CE:B4:D6:A8:87"
+      ]
+    }
   }
-}]
+]
