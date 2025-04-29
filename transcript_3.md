@@ -1,3 +1,8 @@
+---
+layout: default
+title: Transcript 3
+---
+
 # Debate Topic: Self-regulation by the AI industry is preferable to government regulation.
 
 ## Available Resources:
