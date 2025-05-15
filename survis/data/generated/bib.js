@@ -1,17 +1,4 @@
 ﻿define({ entries : {
-    "Chen2024": {
-        "abstract": "A comprehensive survey examining the current landscape of large vision-language models, analyzing their alignment techniques, evaluation benchmarks, and challenges. This work provides structured categorization of VLMs, highlights methodological advances, and identifies future research directions for advancing multimodal AI systems.",
-        "author": "Chen, L. and Xue, H. and Zhu, D. and Li, Z. and Wang, Z. and Wang, X. and Zhang, L. and Chen, Y. and Han, X. and Jiang, Y. and Wang, W. and Song, Y. and Yu, Z.",
-        "journal": "arXiv preprint arXiv:2501.02189v6",
-        "keywords": "type: survey, task specific applications, perceptual capabilities, open source",
-        "publisher": "IEEE",
-        "series": "TVCG",
-        "title": "A Survey of State of the Art Large Vision Language Models: Alignment, Benchmark, Evaluations and Challenges",
-        "type": "article",
-        "url": "https://arxiv.org/pdf/2501.02189.pdf",
-        "volume": "22",
-        "year": "2024"
-    },
     "Chen2024L": {
         "abstract": "This critical examination of evaluation methodologies for Large Vision-Language Models (LVLMs) identifies fundamental flaws in existing benchmarks: many samples don't require visual understanding, and test answers may leak through pre-training. The authors introduce MMStar, a novel evaluation framework with carefully curated visual-dependent samples and safeguards against data leakage, revealing significant discrepancies between conventional benchmark scores and true multimodal reasoning abilities.",
         "author": "Chen, L. and Li, J. and Dong, X. and Zhang, P. and Zang, Y. and Chen, Z. and Duan, H. and Wang, J. and Qiao, Y. and Lin, D. and Zhao, F.",
@@ -31,16 +18,6 @@
         "type": "article",
         "url": "https://arxiv.org/pdf/2010.11929v2.pdf",
         "year": "2020"
-    },
-    "Ghosh2024": {
-        "abstract": "This comprehensive survey examines current methodologies and future directions in vision-language models, analyzing architectural innovations, training approaches, and application domains. The authors provide a structured taxonomy of existing models, evaluate performance across diverse benchmarks, and identify emerging trends and challenges. By synthesizing recent advancements in multimodal learning, the paper offers valuable insights for researchers navigating this rapidly evolving field and highlights promising avenues for future exploration in vision-language integration.",
-        "author": "Ghosh, A. and Acharya, A. and Saha, S. and Jain, V. and Chadha, A.",
-        "journal": "arXiv preprint arXiv:2404.07214",
-        "keywords": "type: survey, task specific applications,parameter efficient training,perceptual capabilities",
-        "title": "Exploring the Frontier of Vision-Language Models: A Survey of Current Methodologies and Future Directions",
-        "type": "article",
-        "url": "https://arxiv.org/abs/2404.07214",
-        "year": "2024"
     },
     "Li2023": {
         "abstract": "This paper presents BLIP-2, an efficient vision-language pre-training approach that bridges frozen pre-trained image encoders and large language models through a lightweight Querying Transformer (Q-Former). Using a two-stage training process with minimal new parameters, this bootstrapping approach achieves state-of-the-art performance across image-text retrieval, image captioning, visual question answering, and zero-shot classification tasks while maintaining computational efficiency.",
@@ -76,24 +53,11 @@
         "abstract": "This groundbreaking work introduces CLIP (Contrastive Language-Image Pre-training), a method training highly transferable visual models using natural language supervision instead of labeled datasets. By learning to associate images with their textual descriptions through contrastive learning on 400 million internet-sourced image-text pairs, CLIP enables zero-shot transfer to various vision tasks without task-specific training, demonstrating remarkable robustness to distribution shifts compared to supervised approaches.",
         "author": "Radford, A. and Kim, J. W. and Hallacy, C. and Ramesh, A. and Goh, G. and Agarwal, S. and Sastry, G. and Askell, A. and Mishkin, P. and Clark, J. and Krueger, G. and Sutskever, I.",
         "journal": "arXiv preprint arXiv:2103.00020",
-        "keywords": "type: Foundation Vision Models, type: Vision-Language Integration, contrastive learning methods,data curation techniques,task specific applications",
+        "keywords": "type: Foundation Vision Models, type: Novel Architecture, contrastive learning methods,data curation techniques,task specific applications",
         "title": "Learning Transferable Visual Models From Natural Language Supervision",
         "type": "article",
         "url": "https://arxiv.org/pdf/2103.00020.pdf",
         "year": "2021"
-    },
-    "Turner2024": {
-        "abstract": "This paper presents a novel transformer-based approach for infant movement analysis that fuses diverse video features for neurodevelopmental monitoring. By combining computer vision techniques with transformer architectures, the system enables more accurate assessment of infant movements, potentially improving early detection of developmental disorders through non-invasive video analysis.",
-        "author": "Turner, A. and Sharkey, D.",
-        "journal": "Sensors",
-        "keywords": "type: Novel Architecture, type: Model Improvement, temporal reasoning,task specific applications,perceptual capabilities",
-        "number": "20",
-        "pages": "6619",
-        "title": "Enhanced Infant Movement Analysis Using Transformer-Based Fusion of Diverse Video Features for Neurodevelopmental Monitoring",
-        "type": "article",
-        "url": "https://doi.org/10.3390/s24206619",
-        "volume": "24",
-        "year": "2024"
     },
     "Zhang2024": {
         "abstract": "This paper presents Mini-Gemini, a framework enhancing multimodal Vision Language Models by maximizing the potential of existing open-source components. The architecture integrates a dual-path visual encoder processing both global context and fine details, a vision-language bridge module, and specialized training strategies including curriculum learning. Evaluations across multiple benchmarks demonstrate improved performance in visual question answering, multimodal reasoning, conversational capabilities, and image captioning.",
